@@ -1,7 +1,10 @@
 # ELK
 
-```
+搭建ELK日志分析平台。此处为其核心配置文件。具体搭建过程请参考[ELK环境搭建.docx](https://raw.githubusercontent.com/sxyx2008/ELK/master/ELK环境搭建.docx "ELK环境搭建.docx")文档
+
 环境:
+
+```
 Vagrant 1.8.1
 CentOS 7.2 192.168.0.228
 Elasticsearch 2.3.2
@@ -10,9 +13,6 @@ Kibana 4.4.2
 filebeat 1.2.2
 topbeat 1.2.2
 ```
-
-搭建ELK日志分析平台。此处为其核心配置文件。具体搭建过程请参考[ELK环境搭建.docx文档](https://raw.githubusercontent.com/sxyx2008/ELK/master/ELK环境搭建.docx文档 "ELK环境搭建.docx文档")
-
 
 # Screenshots
 
