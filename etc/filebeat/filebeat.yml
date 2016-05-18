@@ -1,0 +1,41 @@
+--- 
+filebeat: 
+  prospectors: 
+    - 
+      document_type: syslog
+      paths: 
+        - /var/log/secure
+        - /var/log/messages
+    - 
+      document_type: sys-log
+      input_type: log
+      paths: 
+        - /var/log/*.log
+    - 
+      document_type: nginx-access
+      paths: 
+        - /var/log/nginx/access.log
+    - 
+      document_type: apache-access
+      input_type: log
+      paths: 
+        - /var/log/apache2/access.log
+    - 
+      document_type: tomcat-access
+      input_type: log
+      paths: 
+        - /home/vagrant/tomcat-7.0.69/logs/*.log
+  registry_file: /var/lib/filebeat/registry
+logging: 
+  files: 
+    rotateeverybytes: 10485760
+output: 
+  logstash: 
+    bulk_max_size: 1024
+    hosts: 
+      - "192.168.0.228:5044"
+    tls: 
+      certificate_authorities: 
+        - /etc/pki/tls/certs/logstash-forwarder.crt
+shipper: ~
+
