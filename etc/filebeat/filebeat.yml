@@ -1,4 +1,3 @@
---- 
 filebeat: 
   prospectors: 
     - 
@@ -6,10 +5,6 @@ filebeat:
       paths: 
         - /var/log/secure
         - /var/log/messages
-    - 
-      document_type: sys-log
-      input_type: log
-      paths: 
         - /var/log/*.log
     - 
       document_type: nginx-access
