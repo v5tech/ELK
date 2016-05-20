@@ -11,7 +11,7 @@ filebeat 1.2.2
 topbeat 1.2.2
 ```
 
-搭建ELK日志分析平台。此处为其核心配置文件。具体搭建过程请参考[ELK环境搭建.docx文档](https://raw.githubusercontent.com/sxyx2008/ELK/master/ELK环境搭建.docx文档 "ELK环境搭建.docx文档")
+搭建ELK日志分析平台。此处为其核心配置文件。具体搭建过程请参考[ELK环境搭建.docx](https://raw.githubusercontent.com/sxyx2008/ELK/master/ELK环境搭建.docx "ELK环境搭建.docx文档")文档
 
 # Screenshots
 
