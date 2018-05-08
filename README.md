@@ -11,33 +11,33 @@ filebeat 1.2.2
 topbeat 1.2.2
 ```
 
-搭建ELK日志分析平台。此处为其核心配置文件。具体搭建过程请参考[ELK环境搭建.docx](https://raw.githubusercontent.com/sxyx2008/ELK/master/ELK环境搭建.docx "ELK环境搭建.docx文档")文档
+搭建ELK日志分析平台。此处为其核心配置文件。具体搭建过程请参考[ELK环境搭建.docx](https://raw.githubusercontent.com/ameizi/ELK/master/ELK环境搭建.docx "ELK环境搭建.docx文档")文档
 
 # Screenshots
 
 elasticsearch索引列表
 
-![](https://raw.githubusercontent.com/sxyx2008/ELK/master/Screenshots/elasticsearch-head.png)
+![](https://raw.githubusercontent.com/ameizi/ELK/master/Screenshots/elasticsearch-head.png)
 
 Nginx日志分析
 
-![](https://raw.githubusercontent.com/sxyx2008/ELK/master/Screenshots/Discover-Kibana-Nginx.png)
+![](https://raw.githubusercontent.com/ameizi/ELK/master/Screenshots/Discover-Kibana-Nginx.png)
 
 Syslog系统日志分析
 
-![](https://raw.githubusercontent.com/sxyx2008/ELK/master/Screenshots/Discover-Kibana-Syslog.png)
+![](https://raw.githubusercontent.com/ameizi/ELK/master/Screenshots/Discover-Kibana-Syslog.png)
 
 Tomcat日志分析
 
-![](https://raw.githubusercontent.com/sxyx2008/ELK/master/Screenshots/Discover-Kibana-Tomcat.png)
+![](https://raw.githubusercontent.com/ameizi/ELK/master/Screenshots/Discover-Kibana-Tomcat.png)
 
 系统日志分析
 
-![](https://raw.githubusercontent.com/sxyx2008/ELK/master/Screenshots/Discover-Kibana-Topbeat.png)
+![](https://raw.githubusercontent.com/ameizi/ELK/master/Screenshots/Discover-Kibana-Topbeat.png)
 
 Topbeat Dashboard
 
-![](https://raw.githubusercontent.com/sxyx2008/ELK/master/Screenshots/Topbeat-Dashboard-Kibana.png)
+![](https://raw.githubusercontent.com/ameizi/ELK/master/Screenshots/Topbeat-Dashboard-Kibana.png)
 
 
 # logstash命令
