@@ -489,10 +489,6 @@ http://linoxide.com/
 
 # tomcat日志分析参考
 
-https://github.com/sdd330/tomcat-elk
-
-http://blog.kazaff.me/2015/06/05/日志收集架构--ELK/
-
 https://aggarwalarpit.wordpress.com/2015/12/03/configuring-elk-stack-to-analyse-apache-tomcat-logs/
 
 https://www.systemcodegeeks.com/web-servers/apache/configuring-elk-stack-analyse-apache-tomcat-logs/
@@ -507,7 +503,7 @@ https://spredzy.wordpress.com/2013/03/02/monitor-your-cluster-of-tomcat-applicat
 
 # log4j日志分析
 
-https://qbox.io/blog 全面介绍elk生态圈各个组件filebeat、topbeat等。
+https://qbox.io/blog
 
 https://github.com/logstash/log4j-jsonevent-layout
 
@@ -516,20 +512,3 @@ https://www.elastic.co/guide/en/logstash/current/plugins-inputs-log4j.html
 https://blog.lanyonm.org/articles/2015/12/29/log-aggregation-log4j-spring-logstash.html
 
 http://www.tianmaying.com/tutorial/elastic-logstash-kibana
-
-http://my.oschina.net/itblog/blog/547250
-
-http://blog.sctux.com/?p=445
-
-http://blog.sctux.com/?p=451
-
-http://chenjiehua.me/linux/elk-log-system-setup.html
-
-http://www.fblinux.com/?p=40
-
-http://www.fblinux.com/?p=157 redis主从复制+sentinel集群
-
-
-http://my.oschina.net/itblog/blog/533730 Spring+Log4j+ActiveMQ实现远程记录日志——实战+分析
-
-http://my.oschina.net/itblog/blog/540918 Kafka+Log4j实现日志集中管理
